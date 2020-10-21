@@ -1,0 +1,30 @@
+/**
+ * Rota / Recurso
+ */
+
+/**
+ * Métodos HTTP:
+ * 
+ * GET: Buscar ou listar uma informação do back-end
+ * POST: Criar uma informação no back-end
+ * PUT: Alterar uma informação no back-end
+ */
+
+ /**
+  * Tipos de parâmetros:
+  * 
+  * Query Params: Parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
+  * Route Params: Parâmetros utilizados para identificar recursos ex '/users/:id'
+  * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+  * 
+  */
+
+  /**
+   * Formas de conectar o banco
+   * Driver: SELECT *FROM users (instalando o driver do bd)
+   * Query Builder: table('users').select('*') 
+   *  (vai escrever as query usando javascript e vai estar pronto para usar qualquer bd SQL )
+   * 
+   * Vamos utilizar a Query Builder Knex npm install knex
+   * e vamos utilizar o Driver do sqlite3 com npm install sqlite3
+   */
